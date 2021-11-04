@@ -514,12 +514,13 @@ button,
 input,
 select,
 textarea {
-  font-family: "Inter", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   clear: both;
   color: #ECEDED;
@@ -679,7 +680,7 @@ pre .h3,
 pre .h4,
 pre .h5,
 pre .h6 {
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 pre, code, kbd, tt, var {
@@ -698,7 +699,7 @@ pre {
 }
 
 code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.1px;
@@ -2624,7 +2625,7 @@ textarea.form-input {
 }
 
 .illustration-section-01::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   max-width: 100%;
@@ -2640,7 +2641,7 @@ textarea.form-input {
 }
 
 .illustration-section-02::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   max-width: 100%;
@@ -2926,7 +2927,7 @@ img.has-shadow {
 }
 
 .has-top-divider::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -2941,7 +2942,7 @@ img.has-shadow {
 }
 
 .has-bottom-divider::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2956,7 +2957,7 @@ img.has-shadow {
 }
 
 .invert-color .has-top-divider::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -2971,7 +2972,7 @@ img.has-shadow {
 }
 
 .invert-color .has-bottom-divider::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
